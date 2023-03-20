@@ -1,0 +1,20 @@
+{
+  "name": "camera-operator",
+  "version": "1.0.0",
+  "description": "",
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babylonjs/core": "^5.51.0",
+    "@babylonjs/materials": "^5.51.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
+}
