@@ -45,7 +45,7 @@ export default class {
   }
 
   runRenderLoop() {
-    this.engine.runRenderLoop(this.renderLoop);
+    this.engine.runRenderLoop(() => this.renderLoop());
   }
 
   renderLoop() {
